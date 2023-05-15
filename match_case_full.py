@@ -11,6 +11,7 @@ import time
 now = time.strftime('%d %B, %Y %H:%M:%S')
 print('The time is below:')
 print('Today is:', now)
+print('The time is up there')
 
 while True:
     user = input('Choose add, show, edit, complete, or done: ')
