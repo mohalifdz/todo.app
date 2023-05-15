@@ -16,3 +16,10 @@ def write_todos(todos_arg, filepath='Files/FILEPATH'):
     """ To write to-do items in list """
     with open(filepath, 'w') as file:
         file.writelines(todos_arg)
+
+
+# for testing if the function is working
+
+if __name__ == "__main__":
+    print('Hello')
+    print(get_todos())
